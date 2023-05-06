@@ -1,0 +1,134 @@
+body {
+    background-color: #FAEBD7;
+    color: cadetblue;
+    font-size: 50px;
+}
+
+.content .top {
+    display: flex;
+    border: 1px solid #918597;
+    margin-top: 60px;
+}
+
+.content .bottom {
+    display: flex;
+    border: 1px solid #918597;
+}
+
+.content {
+    margin-top: 10px;
+    display: none;
+}
+
+.content .top div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #918597;
+    width: 80%;
+    text-align: center;
+}
+
+
+.content .bottom div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #918597;
+    width: 60%;
+    text-align: center;
+}
+
+.dizhicanggan {
+    width: 100%;
+}
+
+.topBox {
+    text-align-last: center;
+    font-size: 80px;
+}
+
+.topBox #number{
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid #585eaa;
+    font-size: 40px;
+}
+
+.topBox #dateNumber{
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid #585eaa;
+    font-size: 40px;
+}
+
+.topBox #timeNumber{
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid #585eaa;
+    font-size: 40px;
+}
+
+.topBox button {
+    width: 150px;
+    height: 80px;
+    background-color: azure;
+    border-radius: 10px;
+    border: 1px solid #585eaa;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.dizhicanggan {
+    display: none;
+}
+
+#canggan {
+    display: none;
+}
+
+#hoursz {
+    display: none;
+}
+
+.title {
+    color: black;
+}
+
+.riqi span {
+    font-size: 50px;
+    color: chocolate;
+}
+
+.ganzhi span {
+    font-size: 50px;
+    color: darkgoldenrod;
+}
+
+.xunkong span {
+    font-size: 50px;
+}
+
+.footer{
+    bottom:0;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+}
+
+.startType{
+    font-size: 50px;
+}
+
+.startType .type{
+    height: 40px;
+    width: 40px;
+}
+
+.startType label{
+    color: black;
+}
